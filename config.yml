@@ -95,7 +95,7 @@ social:
 # Data that shows up when sharing to social networks
     title: "VSG"
     image: "/images/pawprintsemail.png" # image located in /static/ (This is usually just the same as the app logo)
-    # social_links:
+    social_links:
       # Links for social media sites, just point it to the root url.
       # - name: "Facebook"
       #   imgURL: "/static/images/facebook_icon.svg"
