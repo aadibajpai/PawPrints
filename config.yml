@@ -9,7 +9,7 @@ org_logo: "/images/sg-logo.png" # Logo for the organization
 
 # Determines if you want an additional nav at the top of the app for your organizations resources
 # Default set to False
-generate_top_nav: False
+generate_top_nav: false
 
 text:
     header_title: "Make Your Mark" 
@@ -17,7 +17,7 @@ text:
         # Text that shows up in the middle of the slideshow
         bold_text: "Make Your Mark"
         first_line: "Create and sign petitions."
-        second_line: "Receive official responses from Student Government."
+        second_line: "Receive official responses from Vanderbilt Student Government."
 
 petitions:
     # Default values that show up when user creates a petition
@@ -95,7 +95,7 @@ social:
 # Data that shows up when sharing to social networks
     title: "VSG"
     image: "/images/pawprintsemail.png" # image located in /static/ (This is usually just the same as the app logo)
-    # social_links:
+    social_links:
       # Links for social media sites, just point it to the root url.
       # - name: "Facebook"
       #   imgURL: "/static/images/facebook_icon.svg"
