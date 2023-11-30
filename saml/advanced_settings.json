@@ -1,35 +1,35 @@
 {
-    "security": {
-        "nameIdEncrypted": false,
-        "authnRequestsSigned": true,
-        "logoutRequestSigned": true,
-        "logoutResponseSigned": true,
-        "signMetadata": false,
-        "wantMessagesSigned": true,
-        "wantAssertionsSigned": false,
-        "wantNameId" : true,
-        "wantNameIdEncrypted": false,
-        "wantAssertionsEncrypted": true,
-        "signatureAlgorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1",
-        "digestAlgorithm": "http://www.w3.org/2000/09/xmldsig#sha1",
-        "metadataValidUntil": "",
-        "metadataCacheDuration": ""
+  "security": {
+    "nameIdEncrypted": false,
+    "authnRequestsSigned": true,
+    "logoutRequestSigned": true,
+    "logoutResponseSigned": true,
+    "signMetadata": false,
+    "wantMessagesSigned": true,
+    "wantAssertionsSigned": false,
+    "wantNameId": true,
+    "wantNameIdEncrypted": false,
+    "wantAssertionsEncrypted": true,
+    "signatureAlgorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1",
+    "digestAlgorithm": "http://www.w3.org/2000/09/xmldsig#sha1",
+    "metadataValidUntil": "",
+    "metadataCacheDuration": ""
+  },
+  "contactPerson": {
+    "technical": {
+      "givenName": "Web Developer",
+      "emailAddress": "VUIT.SSOSupport@vanderbilt.edu"
     },
-    "contactPerson": {
-        "technical": {
-            "givenName": "Web Developer",
-            "emailAddress": "sgweb@rit.edu"
-        },
-        "support": {
-            "givenName": "Systems Administrator",
-            "emailAddress": "sgprod@rit.edu"
-        }
-    },
-    "organization": {
-        "en-US": {
-            "name": "SG",
-            "displayname": "Student Government",
-            "url": "http://sg.rit.edu"
-        }
+    "support": {
+      "givenName": "Systems Administrator",
+      "emailAddress": "VUIT.SSOSupport@vanderbilt.edu"
     }
+  },
+  "organization": {
+    "en-US": {
+      "name": "SG",
+      "displayname": "Student Government",
+      "url": "VUIT.SSOSupport@vanderbilt.edu"
+    }
+  }
 }
