@@ -2,7 +2,7 @@
   "strict": true,
   "debug": true,
   "sp": {
-    "entityId": "https://sso-login-uat.vanderbilt.edu",
+    "entityId": "https://vsg.squ1rrel.dev/saml",
     "assertionConsumerService": {
       "url": "https://sso-login-uat.vanderbilt.edu/idp/SSO.saml2",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"

@@ -11,7 +11,7 @@ from django.contrib.auth.models import User
 
 class Attributes():
     EDU_AFFILIATION = 'urn:oid:1.3.6.1.4.1.4447.1.41'
-    FIRST_NAME = 'urn:oid:2.5.4.42'
+    FIRST_NAME = 'urn:oasis:names:tc:SAML:2.0:attrname-format:basic'
     LAST_NAME = 'urn:oid:2.5.4.4'
     USERNAME = 'urn:oid:0.9.2342.19200300.100.1.1'
 
@@ -34,7 +34,7 @@ class SAMLSPBackend(object):
                 user = User.objects.get(username=username)
             except User.DoesNotExist:
                 # If user does not exist in DB, Create a user object and save to DB
-                user = User(username=username, email=username + "@rit.edu")
+                user = User(username=username, email=username + "@vanderbilt.edu")
                 user.set_unusable_password()
 
             user.first_name = first_name
