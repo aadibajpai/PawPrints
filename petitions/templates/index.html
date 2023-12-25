@@ -82,7 +82,7 @@
                                         class="material material-button material-shadow transition"
                                         :disabled="petition.expired || petition.response || petition.isSigned || '{{ user.first_name }}' == '' {% if user.profile %} || ({{ user.profile.has_access }} !== 1){% endif %}">
                                         <!-- You must be logged in to sign a petition --> <span
-                                            <!-- onclick="window.location.href = '/login/?next=/?p='+getUrl('p')" -->
+                                            onclick="window.location.href = '/login/?next=/?p='+getUrl('p')"
                                             class="cursor" v-if="'{{ user.first_name }}' == ''">Log in to sign this
                                             petition</span>
                                         {% if user.profile %}
