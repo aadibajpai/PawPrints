@@ -30,6 +30,7 @@ class CompleteAuthView(SettingsMixin, View):
 
     def post(self, request):
         req = prepare_django_request(request)
+        print(req)
         auth = OneLogin_Saml2_Auth(req, self.get_settings())
 
         auth.process_response()
