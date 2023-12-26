@@ -10,10 +10,8 @@ from django.contrib.auth.models import User
 
 
 class Attributes():
-    EDU_AFFILIATION = 'urn:oid:1.3.6.1.4.1.4447.1.41'
-    FIRST_NAME = 'urn:oasis:names:tc:SAML:2.0:attrname-format:basic'
-    LAST_NAME = 'urn:oid:2.5.4.4'
-    USERNAME = 'urn:oid:0.9.2342.19200300.100.1.1'
+    NAME = 'name'
+    VUNETID = 'vunetid'
 
 
 class SAMLSPBackend(object):
@@ -25,10 +23,10 @@ class SAMLSPBackend(object):
             attributes = saml_authentication.get_attributes()
             print(attributes)
 
-            username = attributes[Attributes.USERNAME][0]
-            first_name = attributes[Attributes.FIRST_NAME][0]
-            last_name = attributes[Attributes.LAST_NAME][0]
-            affiliation = attributes.get(Attributes.EDU_AFFILIATION, ['-1'])
+            username = attributes[Attributes.VUNETID][0]
+            first_name = attributes[Attributes.NAME][1]
+            last_name = attributes[Attributes.NAME][0]
+            # affiliation = attributes.get(Attributes.EDU_AFFILIATION, ['-1'])
 
             try:
                 # Grab attributes from shib and auth user
@@ -48,9 +46,9 @@ class SAMLSPBackend(object):
                 first_name[0], last_name[0])
 
             # Set user Affiliation
-            user.profile.has_access = 0
-            if 'Student' in affiliation:
-                user.profile.has_access = 1
+            user.profile.has_access = 1
+            # if 'Student' in affiliation:
+            #     user.profile.has_access = 1
 
             user.profile.save()
 
