@@ -25,7 +25,7 @@ class SAMLSPBackend(object):
 
             username = attributes[Attributes.VUNETID][0]
             # name is like {'name': ['Bajpai, Aadi'], 'vunetid': ['string']}
-            first_name, last_name = attributes[Attributes.NAME][0].split(', ')
+            last_name, first_name = attributes[Attributes.NAME][0].split(', ')
             username = attributes[Attributes.VUNETID][0]
             # affiliation = attributes.get(Attributes.EDU_AFFILIATION, ['-1'])
 
