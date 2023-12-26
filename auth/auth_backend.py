@@ -23,6 +23,7 @@ class SAMLSPBackend(object):
 
         if saml_authentication.is_authenticated():
             attributes = saml_authentication.get_attributes()
+            print(attributes)
 
             username = attributes[Attributes.USERNAME][0]
             first_name = attributes[Attributes.FIRST_NAME][0]
