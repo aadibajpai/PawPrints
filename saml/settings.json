@@ -4,7 +4,7 @@
   "sp": {
     "entityId": "https://vsg.squ1rrel.dev/saml",
     "assertionConsumerService": {
-      "url": "http://vsg.squ1rrel.dev:8000/acs",
+      "url": "https://vsg.squ1rrel.dev/acs",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
     },
     "singleLogoutService": {
