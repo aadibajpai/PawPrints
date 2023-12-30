@@ -31,15 +31,15 @@
                     <br />
                     Your changes are automatically saved.
                 </p>
-                {% if name == "PawPrints" %}
+                <!-- {% if name == "PawPrints" %} -->
                 <p>
                     <span class="bold">If this petition is...</span>
                     <ul>
-                        <li>About another student, staff, or faculty member, talk to the <a href="https://www.rit.edu/ombuds/">Ombuds</a> office instead!</li>
-                        <li>A bug report or feature request for PawPrints itself, fill out this <a href="https://goo.gl/forms/tTjRLJnZnpLyWlOn1">form</a>.</li>
+                        <li>About another student, staff, or faculty member, cope instead!</li>
+                        <!-- <li>A bug report or feature request for PawPrints itself, fill out this <a href="https://goo.gl/forms/tTjRLJnZnpLyWlOn1">form</a>.</li> -->
                     </ul>
                 </p>
-                {% endif %}
+                <!-- {% endif %} -->
             </div>
 
         </section>
@@ -47,7 +47,7 @@
         <section class="margin-top padding-top">
             <article class="padding">
                 <h4 class="fieldTitle">Petition Title:</h4>
-                <h1 id="petition_title" class="editable margin-top verify" data-limit-length="true" data-verify-fail-message="<p>The Title of your petition should quickly describe your petition.</p>">{{petition.title}}</h1>
+                <h1 id="petition_title" class="editable margin-top margin-bottom verify" data-limit-length="true" data-verify-fail-message="<p>The Title of your petition should quickly describe your petition.</p>">{{petition.title}}</h1>
             </article>
             <article class="padding">
                 <h4 id="petition_description_title" class="fieldTitle">Petition Description:</h4>
