@@ -8,7 +8,7 @@ org_logo: "/images/sg-logo.png" # Logo for the organization
 
 # Determines if you want an additional nav at the top of the app for your organizations resources
 # Default set to False
-generate_top_nav: false
+generate_top_nav: true
 
 text:
   header_title: "Make Your Mark"
