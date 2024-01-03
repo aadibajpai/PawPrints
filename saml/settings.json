@@ -2,13 +2,13 @@
   "strict": true,
   "debug": true,
   "sp": {
-    "entityId": "https://vsg.squ1rrel.dev/saml",
+    "entityId": "https://roadmaps.today/saml",
     "assertionConsumerService": {
-      "url": "https://vsg.squ1rrel.dev/acs",
+      "url": "https://roadmaps.today/acs",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
     },
     "singleLogoutService": {
-      "url": "https://vsg.squ1rrel.dev/sls",
+      "url": "https://roadmaps.today/sls",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
     },
     "NameIDFormat": "urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified",
