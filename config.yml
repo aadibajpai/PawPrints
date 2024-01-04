@@ -1,5 +1,5 @@
 # Configuration for the app
-name: "VSG Petitions"
+name: "VSG Roadmap"
 description: "Build Your Roadmap. Create and sign petitions. Receive official responses."
 main_logo: "/images/pawprints-white.svg" # Main logo location in static directory
 
@@ -16,7 +16,7 @@ text:
     # Text that shows up in the middle of the slideshow
     bold_text: "Build Your Roadmap"
     first_line: "Create and sign petitions to help define the future of Vanderbilt."
-    second_line: "Receive official responses from Vanderbilt Student Government."
+    second_line: ""
 
 petitions:
   # Default values that show up when user creates a petition
@@ -83,11 +83,13 @@ ui:
       sort_rank: 0
     - url: "/static/images/CampusStock_8.jpg"
       sort_rank: 0
-    - url: "/static/images/carousel_1.png"
+    - url: "/static/images/CampusStock_2.jpg"
       sort_rank: 0
-    - url: "/static/images/carousel_2.png"
+    - url: "/static/images/CampusStock_3.jpg"
       sort_rank: 0
-    - url: "/static/images/carousel_3.png"
+    - url: "/static/images/CampusStock_4.jpg"
+      sort_rank: 0
+    - url: "/static/images/CampusStock_5.jpg"
       sort_rank: 0
 
 social:
