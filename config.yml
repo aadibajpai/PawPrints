@@ -1,6 +1,6 @@
 # Configuration for the app
 name: "VSG Petitions"
-description: "Make Your Mark. Create and sign petitions. Receive official responses."
+description: "Build Your Roadmap. Create and sign petitions. Receive official responses."
 main_logo: "/images/pawprints-white.svg" # Main logo location in static directory
 
 organization: "Vanderbilt Student Government" # Organization responding to petitions
@@ -11,11 +11,11 @@ org_logo: "/images/sg-logo.png" # Logo for the organization
 generate_top_nav: true
 
 text:
-  header_title: "Make Your Mark"
+  header_title: "Build Your Roadmap"
   slideshow:
     # Text that shows up in the middle of the slideshow
-    bold_text: "Make Your Mark"
-    first_line: "Create and sign petitions."
+    bold_text: "Build Your Roadmap"
+    first_line: "Create and sign petitions to help define the future of Vanderbilt."
     second_line: "Receive official responses from Vanderbilt Student Government."
 
 petitions:
